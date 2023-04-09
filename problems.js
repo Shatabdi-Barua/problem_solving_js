@@ -37,6 +37,7 @@ console.log(sum);
 
 // Coding challenge #6: Calculate 10!
 var prod = 1;
+console.log('Problem 5=> 👉');
 
 for (var i = 1; i <= 10; i++) {
     prod *= i;
@@ -45,7 +46,7 @@ for (var i = 1; i <= 10; i++) {
 console.log(prod);
 // Coding challenge #7: Calculate the sum of odd numbers greater than 10 and less than 30
 var sum = 0;
-
+console.log('Problem 7=> 👉');
 for (var i = 11; i <= 30; i += 2) {
     sum += i;
 }
@@ -69,6 +70,7 @@ var r = fahrenheitToCelsius(68);
 console.log(r);
 
 // Coding challenge #10: Calculate the sum of numbers in an array of numbers
+console.log('Problem 10 => 👉');
 function sumArray(ar) {
     var sum = 0;
 
@@ -165,6 +167,7 @@ var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
 var max = findMax(ar);
 console.log("Max: ", max);
 // Coding challenge #14: Print the first 10 Fibonacci numbers without recursion
+console.log('Problem 14 => 👉');
 var f0 = 0;
 console.log(f0);
 
@@ -560,7 +563,7 @@ var n1 = "2909034221912398942349";
 var n2 = "1290923909029309499";
 var sum = add(n1, n2);
 
-console.log(n1, "\n", n2, "\n", sum);
+console.log("👉", n1, "\n", n2, "\n", sum);
 
 function add(sNumber1, sNumber2) {
     var s = "";

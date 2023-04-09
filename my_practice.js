@@ -175,9 +175,9 @@ function reverseStringVal(str)
 // Coding challenge #28: Calculate the sum of first 100 prime numbers
     // 👉 prime_sum.js
 // Coding challenge #29: Print the distance between the first 100 prime numbers
-//bujhi nai
+//will do later
 // Coding challenge #30-a: Create a function that will add two positive numbers of indefinite size. The numbers are received as strings and the result should be also provided as string.
-//bujhi nai
+//will do later
 // Coding challenge #31a. Create a function that will return the number of words in a text
     // 👉 count_words.js
 // Coding challenge #32. Create a function that will capitalize the first letter of each word in a text
@@ -215,3 +215,34 @@ function sumNumberString(numString)
     }
     return sum;
 }
+// Coding challenge #34. Create a function that will return an array with words inside a text
+    // 👉 wordArray.js
+// Coding challenge #35. Create a function to convert a CSV text to a “bi-dimensional” array
+    // 👉 csvToArray.js
+// Coding challenge #36. Create a function that converts a string to an array of characters
+var s = "Hello World";
+console.log('Problem 36 => 👉', stringToArrayChar(s));
+function stringToArrayChar(s)
+{
+    return Array.from(s);
+}
+// Coding challenge #37. Create a function that will convert a string in an array containing the ASCII codes of each character
+console.log('Problem 37 => 👉', getCharCodes("I like JavaScript"));
+function getCharCodes(txt)
+{
+    var arrayChar = [];
+    for (var i = 0; i< txt.length; i++)
+    {
+        var charCode = txt.charCodeAt(i);
+        arrayChar.push(charCode);
+    }
+    return arrayChar;
+}
+// Coding challenge #38. Create a function that will convert an array containing ASCII codes in a string
+console.log('Problem 38 => 👉', codesToStringASCII([73, 32, 108, 105, 107, 101, 32, 74, 97, 118, 97, 83, 99, 114, 105, 112, 116]));
+
+function codesToStringASCII(numAray) {
+    return String.fromCharCode(...numAray);
+}
+// Coding challenge #39. Implement the Caesar cypher
+// Coding challenge #40. Implement the bubble sort algorithm for an array of numbers
